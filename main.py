@@ -7,7 +7,7 @@ from utils import format_time
 
 from os import path, remove
 
-parser = argparse.ArgumentParser(prog="autosrt", description="Automatically generates a SRT file for given video.")
+parser = argparse.ArgumentParser(prog="fukudai", description="Automatically generates a SRT file for given video.")
 
 parser.add_argument("-i", "--input", required=True)
 parser.add_argument("-o", "--output", required=True)
